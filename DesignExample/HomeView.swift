@@ -128,9 +128,12 @@ struct RingsView: View {
                 VStack (alignment: .leading, spacing: 4) {
                     Text("5 min ago")
                         .font(.subheadline)
+                        .foregroundColor(.black)
                         .bold()
+                        
                     Text("Watched 15 minutes today")
                         .font(.caption)
+                        .foregroundColor(.black)
                 }
             }
             .padding(8)

@@ -43,6 +43,7 @@ struct RingView: View {
                 
             Text("\(Int(percent))%")
                 .font(.system(size: 14 * multiplier))
+                .foregroundColor(.black)
                 .fontWeight(.bold)
         }
         
